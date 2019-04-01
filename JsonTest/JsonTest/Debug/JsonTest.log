@@ -1,0 +1,17 @@
+﻿生成启动时间为 2019/3/30 11:33:05。
+     1>项目“D:\Demo\JsonTest\JsonTest\JsonTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\demo\jsontest\jsontest\main.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Demo\JsonTest\Debug\JsonTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib json_vc71_libmtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Demo\JsonTest\Debug\JsonTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Demo\JsonTest\Debug\JsonTest.lib" /MACHINE:X86 Debug\main.obj
+     1>json_vc71_libmtd.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_vc71_libmtd.lib(json_reader.obj)”或在“D:\Demo\JsonTest\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>json_vc71_libmtd.lib(json_value.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_vc71_libmtd.lib(json_value.obj)”或在“D:\Demo\JsonTest\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>json_vc71_libmtd.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_vc71_libmtd.lib(json_writer.obj)”或在“D:\Demo\JsonTest\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         JsonTest.vcxproj -> D:\Demo\JsonTest\Debug\JsonTest.exe
+     1>已完成生成项目“D:\Demo\JsonTest\JsonTest\JsonTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.20
