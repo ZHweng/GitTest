@@ -1,3 +1,4 @@
+/*JsonCpp基本用法*/
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -40,7 +41,6 @@ int main()
 	ofs.open("style_writer.json");
 	ofs << str;
 	ofs.close();
-
 
 	/*对字符串解析*/
 	//const char* json_document = "{\"age\" : 12, \"name\" : \"weng\"}";
@@ -91,7 +91,6 @@ int main()
 
 	/*删除成员*/
 	cout << "remove_age:" << root.removeMember("age") << endl;
-
 
 	system("pause");
 	return 0;
